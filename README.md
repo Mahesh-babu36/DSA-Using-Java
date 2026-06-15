@@ -25,3 +25,23 @@ DSA-Using-Java Roadmap
 7.SORTING TECHNIQUES
 8.SEARCHING TECHNIQUES
 9.ALGORITHM
+
+
+
+
+
+import java.util.*;
+class Main {
+    public static void main(String[] args) {
+      Scanner obj= new Scanner(System.in);
+      int b= obj.nextInt();
+      for(int i=0;i<=b;i++){
+      int a= obj.nextInt();
+      if((a&1)==0){
+          System.out.println("even");
+      }else{
+        System.out.println("odd");
+    }
+  }
+ }
+}
